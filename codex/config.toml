@@ -1,0 +1,20 @@
+# .codex/config.toml
+
+# Approval and security
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+# Web search
+web_search = "cached"
+
+# Agent behavior
+hide_agent_reasoning = false
+check_for_update_on_startup = true
+
+# File references
+file_opener = "vscode"
+
+# Multi-agent settings
+[agents]
+enabled = true
+max_concurrent_threads = 4
